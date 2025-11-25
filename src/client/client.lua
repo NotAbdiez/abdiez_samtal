@@ -1,13 +1,13 @@
-if GetCurrentResourceName() ~= "abdiez_samtal" then
-    print("^1[CLIENT] Skriptet måste heta 'abdiez_samtal'^0")
+if GetCurrentResourceName() ~= "xinput_samtal" then
+    print("Script must be named xinput_samtal to work correctly.")
     while true do
         Wait(3000)
         TriggerEvent("chat:addMessage", {
             color = { 255, 0, 0 },
             multiline = true,
             args = {
-                "^1[CLIENT]",
-                "Skriptet måste heta 'abdiez_samtal' för att fungera!"
+                "Xinput",
+                "Script must be named xinput_samtal to work correctly"
             }
         })
     end
@@ -70,3 +70,4 @@ AddEventHandler("abdiez_visa_spelare_meddelande", function()
         end
     end)
 end)
+
