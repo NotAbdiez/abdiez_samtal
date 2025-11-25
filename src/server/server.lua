@@ -1,8 +1,8 @@
-if GetCurrentResourceName() ~= "abdiez_samtal" then
-    print("^1[SERVER] Skriptet måste heta 'abdiez_samtal'^0")
+if GetCurrentResourceName() ~= "xinput_samtal" then
+    print("Script must be named xinput_samtal to work correctly")
     while true do
         Wait(3000)
-        print("^1[SERVER] FEL: Skriptet måste heta 'abdiez_samtal'^0")
+        print("Script must be named xinput_samtal to work correctly")
     end
     return
 end
@@ -104,3 +104,4 @@ AddEventHandler("playerDropped", function()
         callStarters[channel] = nil
     end
 end)
+
