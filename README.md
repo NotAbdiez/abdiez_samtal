@@ -1,4 +1,4 @@
-# 🎙️ xinput_samtal
+# 🎙️ abdiez_samtal
 
 ## 📜 Description
 This script lets staff members talk directly with players in an immersive way — no need to go out of character (OOC) or leave noclip. It keeps everything smooth, discreet, and roleplay-friendly so you can handle situations without breaking immersion.
@@ -18,7 +18,7 @@ This script lets staff members talk directly with players in an immersive way �
 2. Place the folder in your server’s `resources` directory.
 3. Add this to your `server.cfg`:
    ```
-   ensure xinput_samtal
+   ensure abdiez_samtal
    ```
 
 ---
@@ -30,4 +30,4 @@ This script lets staff members talk directly with players in an immersive way �
 ---
 
 ## 🖊️ Credits
-Made by **xinput** — keep it immersive, brur.
+Made by **abdiez** — keep it immersive, brur.
